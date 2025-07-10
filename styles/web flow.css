@@ -1,0 +1,17 @@
+
+
+
+.dm-sans-normal {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/*Nav styles*/
+nav{
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+}
