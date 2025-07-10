@@ -11,7 +11,20 @@
 /*Nav styles*/
 nav{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
 }
 nav ul li {
     list-style: none;
 }
+/* shared styles*/
+.btn-primary{
+    background-color: #4E47FF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+}
+
