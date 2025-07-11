@@ -38,6 +38,7 @@ nav ul li {
     border-radius: 5px;
     font-weight: bold;
     border: none;
+    margin: 10px;
 }
 /* Banner styles */
 .banner {
@@ -122,5 +123,40 @@ nav ul li {
 .cta-pic {
     border-radius: 10px;
     top: 20px;
-    
+}
+/* contact section */
+.info {
+    font-size: 52px;
+}
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 150px;
+    background-color: #d9eaed;
+    padding: 150px;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+/* Footer */
+.logo {
+    font-size: 70px;
+    font-weight: bolder
+}
+.footer-content {
+    padding: 20px;
+    text-align: center;
+}
+.social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
